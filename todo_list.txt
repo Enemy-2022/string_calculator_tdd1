@@ -1,0 +1,14 @@
+// 1. x in einer Zeile finden, y bleibt immer 0
+"X" => [0,0]
+".X" => [1,0]
+"..X" => [2,0]
+
+// 2. unten ist y=0 und oben ist y=1
+"X\n." => [0,1]
+
+// 3. x und y gemeinsam
+"..X.\n...." => [2,1]
+"...\nX.." => [0,0]
+
+// 4. Fehlerfall
+"...\n...\n..." => "Spaceship lost forever."

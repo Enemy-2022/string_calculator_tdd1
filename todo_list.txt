@@ -1,5 +1,5 @@
 // 1. x in einer Zeile finden, y bleibt immer 0
-"X" => [0,0]
+"X" => [0,0] --> Test getestet und bestanden.
 ".X" => [1,0]
 "..X" => [2,0]
 

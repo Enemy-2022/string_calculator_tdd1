@@ -4,7 +4,7 @@
 "..X" => [2,0] --> Test getestet und bestanden.
 
 // 2. unten ist y=0 und oben ist y=1
-"X\n." => [0,1]
+"X\n." => [0,1] --> Testfall getestet und bestanden 
 
 // 3. x und y gemeinsam
 "..X.\n...." => [2,1]

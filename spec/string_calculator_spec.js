@@ -10,4 +10,7 @@ describe('findSpaceship', function() {
 	it('should return [1,0] for .X', function() {
         expect(calculator.add('.X')).toEqual([1,0]);
     });
+	it('should return [2,0] for ..X', function() {
+        expect(calculator.add('..X')).toEqual([2,0]);
+    });
 });

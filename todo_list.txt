@@ -1,7 +1,7 @@
 // 1. x in einer Zeile finden, y bleibt immer 0
 "X" => [0,0] --> Test getestet und bestanden.
-".X" => [1,0]
-"..X" => [2,0]
+".X" => [1,0] --> Test getestet und bestanden.
+"..X" => [2,0] --> Test getestet und bestanden.
 
 // 2. unten ist y=0 und oben ist y=1
 "X\n." => [0,1]

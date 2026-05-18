@@ -7,7 +7,7 @@
 "X\n." => [0,1] --> Testfall getestet und bestanden 
 
 // 3. x und y gemeinsam
-"..X.\n...." => [2,1]
+"..X.\n...." => [2,1] ---> Testfall getestet und bestanden 
 "...\nX.." => [0,0] -->Testfall getestet und bestanden.
 
 // 4. Fehlerfall

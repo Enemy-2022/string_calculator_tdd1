@@ -2,5 +2,5 @@
 function StringCalculator() {}
 StringCalculator.prototype.add = function(string_numbers) {
 	
-	return [0,0];
+	return [string_numbers.indexOf("X"), 0];
 };

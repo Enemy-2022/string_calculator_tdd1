@@ -8,7 +8,7 @@
 
 // 3. x und y gemeinsam
 "..X.\n...." => [2,1]
-"...\nX.." => [0,0]
+"...\nX.." => [0,0] -->Testfall getestet und bestanden.
 
 // 4. Fehlerfall
 "...\n...\n..." => "Spaceship lost forever."

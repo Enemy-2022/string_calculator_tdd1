@@ -11,4 +11,4 @@
 "...\nX.." => [0,0] -->Testfall getestet und bestanden.
 
 // 4. Fehlerfall
-"...\n...\n..." => "Spaceship lost forever."
+"...\n...\n..." => "Spaceship lost forever." -->Testfall bestanden

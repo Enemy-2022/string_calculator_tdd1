@@ -2,6 +2,10 @@
 function StringCalculator() {}
 StringCalculator.prototype.add = function(string_numbers) {
 	
+	if (!string_numbers.includes("X")) 
+	{
+		return "Spaceship lost forever.";
+	}
 	const zeilen = string_numbers.split("\n");
 	const x= zeilen[0].indexOf("X");
 
@@ -13,6 +17,6 @@ StringCalculator.prototype.add = function(string_numbers) {
 	{
 		return [x, 1];
 	}
-	
+
 	return [zeilen[1].indexOf("X"), 0];
 };
